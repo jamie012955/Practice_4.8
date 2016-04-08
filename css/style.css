@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Up are css reset*/
+/*Down are my css*/
+@media screen and (min-width: 800px){
+	.wrap{
+		width: 800px;
+		margin:0 auto;
+	}
+	.header{
+		height: 120px;
+		border-bottom:1px solid gray;
+		/*background-image: background: -webkit-linear-gradient(white, #F0F0F0);
+		background-image: background: -o-linear-gradient(white, #F0F0F0);
+		background-image: background: linear-gradient(white, #F0F0F0);
+		background: -webkit-linear-gradient(white, #F0F0F0);
+		background: -o-linear-gradient(white, #F0F0F0);
+		background: linear-gradient(white, #F0F0F0);*/
+	}		
+	.graph{
+		float:left;
+		width:330px;
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	.menu{
+		float:left;
+		width:450px;
+	}
+	.menu ul li{
+		float: left;
+		font-family:"Arial";
+		margin-right: 6px;
+		margin-left: 6px;
+	}
+	.menu ul li img{
+		padding-top: 5px;
+	}
+	.menu ul li p{
+		padding-top: 10px;
+		text-align: center;
+	}
+	.menu ul li a{
+		text-decoration: none;
+		color: black;
+	}
+	.content{
+		height:200px;
+		border-bottom:1px solid gray;
+	}
+	.text{
+		float: left;
+		width:500px;
+	}
+	.text h1{
+		font-family: "Arial";
+		font-size: 25px;
+		color:#2894FF;
+		text-decoration: underline;
+		padding-top: 20px;
+		padding-bottom: 2px;
+		padding-left: 5px;
+	}
+	.text p{
+		font-family: "Arial";
+		font-size:15px;
+		padding-top: 5px;
+		padding-bottom: 2px;
+		padding-left: 5px;
+	}
+	.img_sofa{
+		float: left;
+		width: 240px;
+		height: 159px;
+		background-image:url("../images/demo.png");
+		background-repeat: no-repeat;
+		box-shadow:-8px 8px 8px #cccccc;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	.sofa_bold{
+		float: left;
+		padding-left: 20px;
+		padding-top: 130px;
+		padding-right: 20px;
+	}
+	.sofa_normal{
+		padding-top: 130px;
+	}
+	.clear{
+		clear:both;
+	}
+	.item{
+		height: 478px;
+	}
+	.item ul{
+		margin-top: 20px;
+	}
+	.item ul li{
+		border:1px solid #D2E9FF;
+		border-radius: 15px;
+		background: ;
+		width:240px;
+		height: 350px;
+		float: left;
+		margin-right: 12.33333px;
+		margin-left: 12.33333px;
+		background-image: background: -webkit-linear-gradient(white, #D2E9FF);
+		background-image: background: -o-linear-gradient(white, #D2E9FF);
+		background-image: background: linear-gradient(white, #D2E9FF);
+		background: -webkit-linear-gradient(white, #D2E9FF);
+		background: -o-linear-gradient(white, #D2E9FF);
+		background: linear-gradient(white, #D2E9FF);
+	}
+	.item ul li p.title{
+		font-family: "Arial";
+		font-weight:bold;
+		text-align: center;
+		font-size: 20px;
+	}
+	.item ul li p.content_text{
+		font-family: "Arial";
+		font-size: 14px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.item ul li a{
+		text-decoration: none;
+		color: black;
+		display: block;
+	}
+	.item ul li img{
+		padding-top: 20px;
+		padding-left: 35px;
+	}
+}
