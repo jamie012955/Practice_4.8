@@ -174,10 +174,18 @@ table {
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
-	.item ul li a{
+	.item ul a{
 		text-decoration: none;
 		color: black;
 		display: block;
+	}
+	.item ul li:hover{
+		background-image: background: -webkit-linear-gradient(white,#EBD6D6);
+		background-image: background: -o-linear-gradient(white,#EBD6D6);
+		background-image: background: linear-gradient(white, #EBD6D6);
+		background: -webkit-linear-gradient(white, #EBD6D6);
+		background: -o-linear-gradient(white, #EBD6D6);
+		background: linear-gradient(white, #EBD6D6);
 	}
 	.item ul li img{
 		padding-top: 20px;
